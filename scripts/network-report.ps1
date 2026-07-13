@@ -1,10 +1,23 @@
-Write-Host "===== Home Network Report ====="
-Write-Host ""
+$reportPath = ".\reports\network-report.txt"
 
-Write-Host "Computer Name:"
-Write-Host $env:COMPUTERNAME
+"=========================" | Out-File $reportPath
+"HOME NETWORK REPORT" | Out-File $reportPath -Append
+"=========================" | Out-File $reportPath -Append
 
-Write-Host ""
+"" | Out-File $reportPath -Append
 
-Write-Host "Current Date:"
-Write-Host (Get-Date)
+"Computer Name:" | Out-File $reportPath -Append
+$env:COMPUTERNAME | Out-File $reportPath -Append
+
+"" | Out-File $reportPath -Append
+
+"Date:" | Out-File $reportPath -Append
+(Get-Date) | Out-File $reportPath -Append
+
+"" | Out-File $reportPath -Append
+
+"Network Information:" | Out-File $reportPath -Append
+
+ipconfig | Out-File $reportPath -Append
+
+Write-Host "Network report created successfully!"
