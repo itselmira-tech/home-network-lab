@@ -37,6 +37,12 @@ Example network information collected from my Windows system:
 
 ![Network Information](screenshots/network-info.png)
 
+## Network Diagram
+
+Home network structure:
+
+![Home Network Diagram](diagrams/home-network-diagram.png)
+
 ## Documentation
 
 Detailed notes:
@@ -51,3 +57,39 @@ Detailed notes:
 - Technical documentation
 - Version control with Git
 - Basic IT infrastructure concepts
+## Automation
+
+This project includes a PowerShell script that collects basic network information from a Windows system.
+
+Script:
+
+`scripts/network-report.ps1`
+## Automation
+
+This project includes a PowerShell script that automatically collects network information from a Windows system.
+
+### Script
+
+`scripts/network-report.ps1`
+
+### Generated Reports
+
+The script creates automatic network reports:
+
+- `reports/network-report.txt`
+- `reports/network-report.html`
+
+### Collected Information
+
+The report includes:
+
+- Computer name
+- Date and time
+- IPv4 information
+- Subnet mask
+- Default gateway
+- DNS servers
+
+## Project Output
+
+The final result of this project is an automated network documentation tool that collects and presents basic network information in text and HTML formats.
