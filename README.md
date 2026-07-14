@@ -1,95 +1,120 @@
 # Home Network Lab
 
-A practical networking project to learn and document basic IT infrastructure concepts.
+A practical IT project focused on understanding, documenting, and automating a small home network environment.
 
 ## Project Overview
 
-In this project, I am building a small home network lab and documenting my learning process about computer networks, IP addressing, DNS, DHCP, and network troubleshooting.
+In this project, I created a small home network documentation lab to practice basic networking concepts and automate network information collection using PowerShell.
 
-## Goals
+The project covers IP addressing, DNS, DHCP, network documentation, and basic Windows network automation.
+
+## Objectives
 
 - Understand basic networking concepts
-- Learn IP addressing and subnet basics
-- Practice network documentation
-- Use Git and GitHub for project management
-- Build IT skills for an IT-Systemelektroniker Ausbildung
+- Document a home network structure
+- Analyze Windows network configuration
+- Learn Git and GitHub workflow
+- Automate network information collection with PowerShell
 
-## Topics Covered
+## Network Concepts Covered
 
-### Networking Basics
+### IP Addressing
 
-- IPv4 addressing
-- Private IP addresses
+- IPv4 addresses
+- Private IP ranges
+- Subnetting basics
 - Default Gateway
-- DNS
+
+### Network Services
+
 - DHCP
+- DNS
+- Network configuration analysis
 
-### Tools Used
+## Project Structure
 
-- Windows Command Prompt
-- Git
-- GitHub
-- Visual Studio Code
-
-## Network Information
-
-Example network information collected from my Windows system:
-
-![Network Information](screenshots/network-info.png)
+```
+home-network-lab
+│
+├── diagrams
+│   └── home-network-diagram.png
+│
+├── screenshots
+│   └── network-info.png
+│
+├── notes
+│   ├── ip-addressing.md
+│   ├── dns.md
+│   └── dhcp.md
+│
+├── scripts
+│   └── network-report.ps1
+│
+└── README.md
+```
 
 ## Network Diagram
 
-Home network structure:
+The following diagram shows the structure of the documented home network:
 
 ![Home Network Diagram](diagrams/home-network-diagram.png)
 
-## Documentation
+## Network Information
 
-Detailed notes:
+Example network information collected from a Windows system:
 
-- [IP Addressing](notes/ip-addressing.md)
-- [DNS](notes/dns.md)
-- [DHCP](notes/dhcp.md)
+![Network Information](screenshots/network-info.png)
 
-## Skills Practiced
+## PowerShell Automation
 
-- Network troubleshooting
-- Technical documentation
-- Version control with Git
-- Basic IT infrastructure concepts
-## Automation
-
-This project includes a PowerShell script that collects basic network information from a Windows system.
+This project includes a PowerShell script that collects basic network information automatically.
 
 Script:
 
-`scripts/network-report.ps1`
-## Automation
+```
+scripts/network-report.ps1
+```
 
-This project includes a PowerShell script that automatically collects network information from a Windows system.
+Run:
 
-### Script
+```powershell
+.\scripts\network-report.ps1
+```
 
-`scripts/network-report.ps1`
-
-### Generated Reports
-
-The script creates automatic network reports:
-
-- `reports/network-report.txt`
-- `reports/network-report.html`
-
-### Collected Information
-
-The report includes:
+The script collects:
 
 - Computer name
 - Date and time
-- IPv4 information
-- Subnet mask
-- Default gateway
+- IPv4 address
+- Network gateway
 - DNS servers
 
-## Project Output
+## Tools Used
 
-The final result of this project is an automated network documentation tool that collects and presents basic network information in text and HTML formats.
+- Windows PowerShell
+- Git
+- GitHub
+- Visual Studio Code
+- diagrams.net
+- Markdown
+
+## Skills Practiced
+
+- Basic networking
+- Network troubleshooting
+- Technical documentation
+- PowerShell scripting
+- Version control with Git
+
+## Future Improvements
+
+Possible future improvements:
+
+- Add network monitoring
+- Add more PowerShell automation
+- Add virtual machines for testing
+- Document advanced networking concepts
+
+## Author
+
+Elmira
