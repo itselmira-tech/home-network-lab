@@ -120,6 +120,11 @@ The collected information was documented and analyzed.
 | DNS | Domain name resolution |
 | DHCP | Automatic IP assignment |
 | Router | Network gateway information |
+| Document | Description |
+|----------|-------------|
+| [Network Report](reports/network-report.md) | Complete network analysis |
+| [Network Topology](docs/network-topology.md) | Network diagram and explanation |
+| [Troubleshooting Guide](docs/troubleshooting.md) | Common network problems and solutions |
 
 ---
 
