@@ -1,120 +1,171 @@
-# Home Network Lab
+# 🌐 Home Network Lab
 
-A practical IT project focused on understanding, documenting, and automating a small home network environment.
+![Network](https://img.shields.io/badge/Project-Home%20Network%20Lab-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Documentation](https://img.shields.io/badge/Documentation-Available-orange)
+![Focus](https://img.shields.io/badge/Focus-Networking-purple)
 
-## Project Overview
+A practical networking documentation project focused on home network analysis, IP addressing, DNS, DHCP, router configuration, and basic troubleshooting.
 
-In this project, I created a small home network documentation lab to practice basic networking concepts and automate network information collection using PowerShell.
+This project demonstrates fundamental networking skills relevant to IT Support and IT-Systemelektroniker training.
 
-The project covers IP addressing, DNS, DHCP, network documentation, and basic Windows network automation.
+---
 
-## Objectives
+# 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Project Objectives](#-project-objectives)
+- [Network Environment](#-network-environment)
+- [Topics Covered](#-topics-covered)
+- [Project Structure](#-project-structure)
+- [Network Analysis](#-network-analysis)
+- [Documentation](#-documentation)
+- [Troubleshooting](#-troubleshooting)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+
+---
+
+# 📖 Overview
+
+This project documents the analysis of a home network environment.
+
+The goal was to understand how devices communicate inside a local network, how IP addresses are assigned, how DNS works, and how common network problems can be diagnosed.
+
+---
+
+# 🎯 Project Objectives
 
 - Understand basic networking concepts
-- Document a home network structure
-- Analyze Windows network configuration
-- Learn Git and GitHub workflow
-- Automate network information collection with PowerShell
+- Analyze a local network environment
+- Learn IP addressing
+- Understand DHCP and DNS functions
+- Practice network troubleshooting
+- Create professional technical documentation
 
-## Network Concepts Covered
+---
 
-### IP Addressing
+# 🏠 Network Environment
 
-- IPv4 addresses
-- Private IP ranges
-- Subnetting basics
+The investigated network contains typical home network components:
+
+| Component | Function |
+|-----------|----------|
+| Router | Internet connection and network management |
+| Client Devices | Network communication |
+| Wi-Fi Network | Wireless connectivity |
+| DNS | Domain name resolution |
+| DHCP | Automatic IP assignment |
+
+---
+
+# 📚 Topics Covered
+
+- IPv4 Addressing
+- Private IP Addresses
+- Subnet Mask
 - Default Gateway
-
-### Network Services
-
 - DHCP
 - DNS
-- Network configuration analysis
+- Router Configuration
+- Network Troubleshooting
+- Connectivity Testing
 
-## Project Structure
+---
 
-```
-home-network-lab
+# 📂 Project Structure
+
+```text
+home-network-lab/
 │
-├── diagrams
-│   └── home-network-diagram.png
+├── README.md
 │
-├── screenshots
-│   └── network-info.png
-│
-├── notes
+├── notes/
 │   ├── ip-addressing.md
 │   ├── dns.md
-│   └── dhcp.md
+│   ├── dhcp.md
+│   └── router.md
 │
-├── scripts
-│   └── network-report.ps1
+├── reports/
+│   └── network-report.md
 │
-└── README.md
+├── screenshots/
+│
+└── docs/
 ```
 
-## Network Diagram
+---
 
-The following diagram shows the structure of the documented home network:
+# 🔍 Network Analysis
 
-![Home Network Diagram](diagrams/home-network-diagram.png)
+The network was analyzed using common diagnostic tools:
 
-## Network Information
+- ipconfig
+- ping
+- nslookup
+- Network settings
+- Router interface
 
-Example network information collected from a Windows system:
+The collected information was documented and analyzed.
 
-![Network Information](screenshots/network-info.png)
+---
 
-## PowerShell Automation
+# 📄 Documentation
 
-This project includes a PowerShell script that collects basic network information automatically.
+| Document | Description |
+|----------|-------------|
+| Network Report | Complete network analysis |
+| IP Addressing | IPv4 concepts and configuration |
+| DNS | Domain name resolution |
+| DHCP | Automatic IP assignment |
+| Router | Network gateway information |
 
-Script:
+---
 
-```
-scripts/network-report.ps1
-```
+# 🛠️ Troubleshooting
 
-Run:
+Examples of investigated network problems:
 
-```powershell
-.\scripts\network-report.ps1
-```
+- Connection issues
+- IP configuration problems
+- DNS resolution problems
+- Router connectivity issues
 
-The script collects:
+---
 
-- Computer name
-- Date and time
-- IPv4 address
-- Network gateway
-- DNS servers
+# 🧰 Skills Demonstrated
 
-## Tools Used
+- IPv4 Networking
+- TCP/IP Fundamentals
+- DNS Understanding
+- DHCP Understanding
+- Network Troubleshooting
+- Router Basics
+- Technical Documentation
 
-- Windows PowerShell
-- Git
-- GitHub
-- Visual Studio Code
-- diagrams.net
-- Markdown
+---
 
-## Skills Practiced
+# 🚀 Future Improvements
 
-- Basic networking
-- Network troubleshooting
-- Technical documentation
-- PowerShell scripting
-- Version control with Git
+Planned additions:
 
-## Future Improvements
+- Network topology diagram
+- More troubleshooting scenarios
+- Wireshark traffic analysis
+- Linux networking exercises
+- Virtual network laboratory
 
-Possible future improvements:
+---
 
-- Add network monitoring
-- Add more PowerShell automation
-- Add virtual machines for testing
-- Document advanced networking concepts
+# 📜 License
 
-## Author
+This repository is created for educational and portfolio purposes.
 
-Elmira
+---
+
+## 👩‍💻 Author
+
+**Elmira**
+
+IT Portfolio Project | Networking Documentation | 2026
